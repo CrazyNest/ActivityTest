@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:colorForeground">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:textColorSecondary">@color/text_color_secondary</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark</item>
+        <item name="alertDialogTheme">@style/DialogStyles</item>
+    </style>
+
+    <style name="DialogStyles" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">#3F51B5</item>
+    </style>
+
+    <style name="LevelStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">#252850</item>
+    </style>
+
+    <style name="ZadanieStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#252850</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="ButtonStyles">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:background">#3F51B5</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ButtonStylesMini">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:background">#3F51B5</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
